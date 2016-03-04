@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+   
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="7.0"
+        android:background="@drawable/liebao_background"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1.38"
+            android:onClick="dianji_caidan"
+            android:src="@drawable/ic_action_overflow" />
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginRight="40.0dip"
+            android:layout_weight="2.26"
+            android:src="@drawable/liebao_logo" />
+
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="2.0" />
+
+        <TextView
+            android:id="@id/btn_connect"
+            android:layout_width="160.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/liebao_connect_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="dianji_connect"
+            android:text="@string/unconnect"
+            android:textColor="#ffffffff"
+            android:textSize="16.0dip" />
+
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.5" />
+
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="2.0" />
+    </LinearLayout>
+
+            <LinearLayout 
+                android:orientation="horizontal" 
+        		android:id="@id/btn_layout1" 
+        		android:layout_width="fill_parent" 
+        		android:layout_height="0.0dip" 
+        		android:layout_weight="4.5">
+                
+                <LinearLayout 
+                    android:gravity="center" 
+            		android:orientation="vertical" 
+            		android:id="@+id/show1" 
+		            android:background="@drawable/liebao_btn_selector" 
+		            android:padding="10.0dip" 
+		            android:clickable="true" 
+		            android:layout_width="0.0dip" 
+		            android:layout_height="fill_parent" 
+		            android:layout_weight="1.0"
+		            android:onClick="dianji_shangchuanwenjian"
+		            >
+                    <ImageView 
+	                android:layout_width="60.0dip" 
+	                android:layout_height="60.0dip" 
+	                android:src="@drawable/liebao_mouse" 
+	                
+	                />
+                    <TextView android:textSize="16.0dip" 
+	                android:textColor="#ff676767" 
+	                android:gravity="center" 
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content" 
+	                android:layout_marginTop="5.0dip" 
+	                android:text="@string/liebao_shangchuan" />
+                </LinearLayout>
+                <View 
+		            android:background="#ffe1e1e1" 
+		            android:layout_width="1.0dip" 
+		            android:layout_height="fill_parent" />
+                <LinearLayout 
+                    android:gravity="center" 
+		            android:orientation="vertical" 
+		            android:id="@+id/show2" 
+		            android:background="@drawable/liebao_btn_selector" 
+		            android:padding="10.0dip" 
+		            android:clickable="true" 
+		            android:layout_width="0.0dip" 
+		            android:layout_height="fill_parent" 
+		            android:layout_weight="1.0"
+		            android:onClick="dianji_xiazaiwenjian">
+                    <ImageView 
+	                android:layout_width="60.0dip" 
+	                android:layout_height="60.0dip" 
+	                android:src="@drawable/liebao_ppt" />
+                    <TextView 
+	                android:textSize="16.0dip" 
+	                android:textColor="#ff676767" 
+	                android:gravity="center" 
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content" 
+	                android:layout_marginTop="5.0dip" 
+	                android:text="@string/liebao_xiazai" />
+                </LinearLayout>
+            </LinearLayout>
+            <View 
+	        android:background="#ffe1e1e1" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="1.0dip" />
+            <LinearLayout
+                android:orientation="horizontal" 
+		        android:id="@id/btn_layout2" 
+		        android:layout_width="fill_parent" 
+		        android:layout_height="0.0dip" 
+		        android:layout_weight="4.5" 
+                >
+                
+                <LinearLayout
+                    android:id="@id/btn_kongzhi"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/liebao_btn_selector"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="dianji_shubiaokongzhi"
+                    android:orientation="vertical"
+                    android:padding="10.0dip" >
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="78dp"
+                        android:src="@drawable/liebao_shubiao" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5.0dip"
+                        android:gravity="center"
+                        android:text="@string/liebao_kongzhi"
+                        android:textColor="#ff676767"
+                        android:textSize="16.0dip" />
+
+                </LinearLayout>
+                <View 
+		            android:background="#ffe1e1e1" 
+		            android:layout_width="1.0dip" 
+		            android:layout_height="fill_parent" />
+                
+                <LinearLayout
+                    android:id="@id/btn_more"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/liebao_btn_selector"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="dianji_gengduo"
+                    android:orientation="vertical"
+                    android:padding="10.0dip" >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/liebao_jiankong" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:gravity="center"
+                        android:text="屏幕监控"
+                        android:textColor="#ff676767"
+                        android:textSize="16.0dip" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+</LinearLayout>

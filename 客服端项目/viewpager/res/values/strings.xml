@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">无线生活</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="unconnect">Connect</string>
+    <string name="liebao_shangchuan">上传文件</string>
+    <string name="liebao_xiazai">下载文件</string>
+    <string name="liebao_shoubing">游戏手柄</string>
+    <string name="liebao_jianshi">视频监视</string>
+    <string name="liebao_kongzhi">鼠标控制</string>
+    <string name="liebao_ganying">重力感应</string>
+    <string name="liebao_more">更多</string>
+    <string name="action_search">Search</string>
+    <string name="main_activity_disk">电脑硬盘</string>
+    <string name="download_activity">下载详情</string>
+    <string name="title_activity_d_screen">D_screen</string>
+    <string name="title_activity_mouse_key">鼠标键盘控制</string>
+    <string name="key_board">软键盘</string>
+
+</resources>

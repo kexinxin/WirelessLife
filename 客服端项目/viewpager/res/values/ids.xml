@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item type="id" name="btn_connect">false</item>
+    <item type="id" name="btn_layout1">false</item>
+    <item type="id" name="btn_mouse">false</item>
+    <item type="id" name="btn_ppt">false</item>
+    <item type="id" name="btn_layout2">false</item>
+    <item type="id" name="btn_shoubing">false</item>
+    <item type="id" name="btn_ganying">false</item>
+    <item type="id" name="btn_more">false</item>
+    <item type="id" name="btn_jianshi">false</item>
+    <item type="id" name="btn_kongzhi">false</item>
+    
+</resources>

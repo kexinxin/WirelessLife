@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white"
+    android:gravity="center">
+    
+    <LinearLayout
+                android:orientation="horizontal" 
+		        android:id="@id/btn_layout2" 
+		        android:layout_width="fill_parent" 
+		        android:layout_height="0.0dip" 
+		        android:layout_weight="4.5" 
+                >
+                
+                <LinearLayout
+                    android:id="@id/btn_jianshi"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/liebao_btn_selector"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="dianji_shipinjianshi"
+                    android:orientation="vertical"
+                    android:padding="10.0dip" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="110dp"
+                        android:src="@drawable/liebao_guanji" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="5.0dip"
+                        android:layout_weight="0.30"
+                        android:gravity="center"
+                        android:text="控制电脑关机"
+                        android:textColor="#ff676767"
+                        android:textSize="16.0dip" />
+                </LinearLayout>
+
+                <View 
+		            android:background="#ffe1e1e1" 
+		            android:layout_width="1.0dip" 
+		            android:layout_height="fill_parent" />
+                
+                <LinearLayout
+                    android:gravity="center" 
+		            android:orientation="vertical" 
+		            android:id="@id/btn_shoubing" 
+		            android:background="@drawable/liebao_btn_selector" 
+		            android:padding="10.0dip" 
+		            android:clickable="true" 
+		            android:layout_width="0.0dip" 
+		            android:layout_height="fill_parent" 
+		            android:layout_weight="1.0"
+		            android:onClick="dianji_youxishoubing" 
+                    >
+
+                    <ImageView
+                        android:layout_width="100.0dip"
+                        android:layout_height="100.0dip"
+                        android:src="@drawable/liebao_more" />
+                    
+                    <TextView 
+	                android:textSize="16.0dip" 
+	                android:textColor="#ff676767" 
+	                android:gravity="center" 
+	                android:layout_width="wrap_content" 
+	                android:layout_height="wrap_content" 
+	                android:layout_marginTop="5.0dip" 
+	                android:text="更多" />
+                </LinearLayout>
+
+            </LinearLayout>
+		
+            <View 
+	        android:background="#ffe1e1e1" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="1.0dip" />
+            <LinearLayout 
+                android:orientation="horizontal" 
+        		android:id="@id/btn_layout1" 
+        		android:layout_width="fill_parent" 
+        		android:layout_height="0.0dip" 
+        		android:layout_weight="4.5">
+                
+                
+                <LinearLayout 
+            android:gravity="center" 
+            android:orientation="vertical" 
+             
+            android:background="@drawable/liebao_btn_selector" 
+            android:padding="10.0dip" 
+            android:clickable="true" 
+            android:layout_width="0.0dip" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="1.0">
+          
+        </LinearLayout>
+        <View 
+            android:background="#ffe1e1e1" 
+            android:layout_width="1.0dip" 
+            android:layout_height="fill_parent" />
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:orientation="horizontal" 
+        		android:id="@id/btn_layout1" 
+        		android:layout_width="fill_parent" 
+        		android:layout_height="0.0dip" 
+        		android:layout_weight="4.5">
+                
+                 
+                
+                
+            </LinearLayout>
+
+</LinearLayout>
